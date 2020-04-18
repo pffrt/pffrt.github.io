@@ -1,0 +1,60 @@
+body {
+    background-image: url("./static/img/fond1920seamless.png");
+    background-color: #0d00b4;
+    background-attachment: fixed;
+    color: #FFF
+}
+
+a {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.8)
+}
+
+a:active {
+    color: rgba(255, 255, 255, 1)
+}
+
+.pages {
+    text-align: center;
+}
+
+.title {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fleche {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.pq {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.pq img {
+    max-width: 142px;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    padding: 40px;
+    padding-top: 100px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4)
+}
